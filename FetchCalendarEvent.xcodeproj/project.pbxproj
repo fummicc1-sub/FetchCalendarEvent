@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D396DB0321AD8D9700A160E1 /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396DB0221AD8D9700A160E1 /* CalendarTableViewCell.swift */; };
 		D3CD377721ABD99000FFB35D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CD377621ABD99000FFB35D /* AppDelegate.swift */; };
 		D3CD377921ABD99000FFB35D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CD377821ABD99000FFB35D /* ViewController.swift */; };
 		D3CD377C21ABD99000FFB35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CD377A21ABD99000FFB35D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D396DB0221AD8D9700A160E1 /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
 		D3CD377321ABD99000FFB35D /* FetchCalendarEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchCalendarEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CD377621ABD99000FFB35D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3CD377821ABD99000FFB35D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				D3CD377621ABD99000FFB35D /* AppDelegate.swift */,
 				D3CD377821ABD99000FFB35D /* ViewController.swift */,
+				D396DB0221AD8D9700A160E1 /* CalendarTableViewCell.swift */,
 				D3CD377A21ABD99000FFB35D /* Main.storyboard */,
 				D3CD377D21ABD99100FFB35D /* Assets.xcassets */,
 				D3CD377F21ABD99100FFB35D /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				D3CD377921ABD99000FFB35D /* ViewController.swift in Sources */,
 				D3CD377721ABD99000FFB35D /* AppDelegate.swift in Sources */,
+				D396DB0321AD8D9700A160E1 /* CalendarTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S8WBNKMKYU;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
 				INFOPLIST_FILE = FetchCalendarEvent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S8WBNKMKYU;
+				DEVELOPMENT_TEAM = 2X6AD4W323;
 				INFOPLIST_FILE = FetchCalendarEvent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
