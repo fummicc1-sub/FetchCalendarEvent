@@ -22,10 +22,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         table.dataSource = self
         checkAuth()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         getEventsInOneYear()
     }
     
